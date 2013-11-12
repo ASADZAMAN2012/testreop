@@ -11,12 +11,14 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
  
-public class TestBase {
+public class TestBase 
+{
  
     protected ThreadLocal<RemoteWebDriver> threadDriver = null;
  
     @BeforeMethod
-    public void setUp() throws MalformedURLException {
+    public void setUp() throws MalformedURLException 
+    {
  
         threadDriver = new ThreadLocal<RemoteWebDriver>();
         DesiredCapabilities dc = new DesiredCapabilities();
@@ -26,12 +28,14 @@ public class TestBase {
         threadDriver.set(new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), dc));
     }
  
-    public WebDriver getDriver() {
+    public WebDriver getDriver() 
+    {
         return threadDriver.get();
     }
  
     @AfterMethod
-    public void closeBrowser() {
+    public void closeBrowser() 
+    {
         getDriver().quit();
  
     }

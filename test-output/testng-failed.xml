@@ -3,72 +3,152 @@
 <suite thread-count="2" name="Failed suite [Parallel test runs]" parallel="tests">
   <test name="T_02(failed)" parallel="tests">
     <classes>
+      <class name="Test05">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Test05 -->
       <class name="Test03">
         <methods>
           <include name="setUp"/>
-          <include name="closeBrowser"/>
         </methods>
       </class> <!-- Test03 -->
-      <class name="Test04">
-        <methods>
-          <include name="setUp"/>
-          <include name="closeBrowser"/>
-        </methods>
-      </class> <!-- Test04 -->
       <class name="Test02">
         <methods>
           <include name="setUp"/>
-          <include name="closeBrowser"/>
           <include name="testLink"/>
         </methods>
       </class> <!-- Test02 -->
       <class name="Test01">
         <methods>
           <include name="setUp"/>
-          <include name="closeBrowser"/>
         </methods>
       </class> <!-- Test01 -->
-      <class name="Test05">
+      <class name="Test04">
         <methods>
           <include name="setUp"/>
-          <include name="closeBrowser"/>
         </methods>
-      </class> <!-- Test05 -->
+      </class> <!-- Test04 -->
     </classes>
   </test> <!-- T_02(failed) -->
-  <test name="T_04(failed)" parallel="tests">
+  <test name="T_01(failed)" parallel="tests">
     <classes>
-      <class name="Test02">
-        <methods>
-          <include name="setUp"/>
-          <include name="closeBrowser"/>
-        </methods>
-      </class> <!-- Test02 -->
-      <class name="Test03">
-        <methods>
-          <include name="setUp"/>
-          <include name="closeBrowser"/>
-        </methods>
-      </class> <!-- Test03 -->
-      <class name="Test04">
-        <methods>
-          <include name="setUp"/>
-          <include name="closeBrowser"/>
-          <include name="testLink"/>
-        </methods>
-      </class> <!-- Test04 -->
-      <class name="Test01">
-        <methods>
-          <include name="setUp"/>
-          <include name="closeBrowser"/>
-        </methods>
-      </class> <!-- Test01 -->
       <class name="Test05">
         <methods>
           <include name="setUp"/>
-          <include name="closeBrowser"/>
         </methods>
       </class> <!-- Test05 -->
+      <class name="Test03">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Test03 -->
+      <class name="Test02">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Test02 -->
+      <class name="Test01">
+        <methods>
+          <include name="testLink"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Test01 -->
+      <class name="Test04">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Test04 -->
+    </classes>
+  </test> <!-- T_01(failed) -->
+  <test name="T_04(failed)" parallel="tests">
+    <classes>
+      <class name="Test05">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Test05 -->
+      <class name="Test03">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Test03 -->
+      <class name="Test02">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Test02 -->
+      <class name="Test01">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Test01 -->
+      <class name="Test04">
+        <methods>
+          <include name="setUp"/>
+          <include name="testLink"/>
+        </methods>
+      </class> <!-- Test04 -->
     </classes>
   </test> <!-- T_04(failed) -->
+  <test name="T_03(failed)" parallel="tests">
+    <classes>
+      <class name="Test05">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Test05 -->
+      <class name="Test03">
+        <methods>
+          <include name="setUp"/>
+          <include name="testLink"/>
+        </methods>
+      </class> <!-- Test03 -->
+      <class name="Test02">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Test02 -->
+      <class name="Test01">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Test01 -->
+      <class name="Test04">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Test04 -->
+    </classes>
+  </test> <!-- T_03(failed) -->
+  <test name="T_05(failed)" parallel="tests">
+    <classes>
+      <class name="Test05">
+        <methods>
+          <include name="setUp"/>
+          <include name="testLink"/>
+        </methods>
+      </class> <!-- Test05 -->
+      <class name="Test03">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Test03 -->
+      <class name="Test02">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Test02 -->
+      <class name="Test01">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Test01 -->
+      <class name="Test04">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Test04 -->
+    </classes>
+  </test> <!-- T_05(failed) -->
 </suite> <!-- Failed suite [Parallel test runs] -->

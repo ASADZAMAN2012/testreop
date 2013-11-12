@@ -2,91 +2,91 @@
 <testng-results skipped="0" failed="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Parallel test runs" duration-ms="27466" started-at="2013-10-24T19:15:38Z" finished-at="2013-10-24T19:16:05Z">
+  <suite name="Parallel test runs" duration-ms="65697" started-at="2013-11-12T21:05:56Z" finished-at="2013-11-12T21:07:02Z">
     <groups>
     </groups>
-    <test name="T_01" duration-ms="9408" started-at="2013-10-24T19:15:38Z" finished-at="2013-10-24T19:15:47Z">
-      <class name="Test01">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:Test01@1de58cb8]" name="setUp" is-config="true" duration-ms="2975" started-at="2013-10-24T15:15:38Z" finished-at="2013-10-24T15:15:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testLink()[pri:0, instance:Test01@1de58cb8]" name="testLink" duration-ms="6336" started-at="2013-10-24T15:15:41Z" finished-at="2013-10-24T15:15:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLink -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Test01@1de58cb8]" name="closeBrowser" is-config="true" duration-ms="80" started-at="2013-10-24T15:15:47Z" finished-at="2013-10-24T15:15:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- Test01 -->
-    </test> <!-- T_01 -->
-    <test name="T_02" duration-ms="11093" started-at="2013-10-24T19:15:38Z" finished-at="2013-10-24T19:15:49Z">
+    <test name="T_02" duration-ms="28801" started-at="2013-11-12T21:05:56Z" finished-at="2013-11-12T21:06:25Z">
       <class name="Test02">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:Test02@54520eb]" name="setUp" is-config="true" duration-ms="4661" started-at="2013-10-24T15:15:38Z" finished-at="2013-10-24T15:15:42Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Test02@7d742700]" name="setUp" is-config="true" duration-ms="14579" started-at="2013-11-12T16:05:56Z" finished-at="2013-11-12T16:06:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testLink()[pri:0, instance:Test02@54520eb]" name="testLink" duration-ms="6333" started-at="2013-10-24T15:15:42Z" finished-at="2013-10-24T15:15:49Z">
+        <test-method status="PASS" signature="testLink()[pri:0, instance:Test02@7d742700]" name="testLink" duration-ms="13886" started-at="2013-11-12T16:06:11Z" finished-at="2013-11-12T16:06:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLink -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Test02@54520eb]" name="closeBrowser" is-config="true" duration-ms="84" started-at="2013-10-24T15:15:49Z" finished-at="2013-10-24T15:15:49Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Test02@7d742700]" name="closeBrowser" is-config="true" duration-ms="274" started-at="2013-11-12T16:06:25Z" finished-at="2013-11-12T16:06:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- Test02 -->
     </test> <!-- T_02 -->
-    <test name="T_03" duration-ms="8560" started-at="2013-10-24T19:15:47Z" finished-at="2013-10-24T19:15:56Z">
-      <class name="Test03">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:Test03@1089cc5e]" name="setUp" is-config="true" duration-ms="3206" started-at="2013-10-24T15:15:47Z" finished-at="2013-10-24T15:15:50Z">
+    <test name="T_01" duration-ms="31236" started-at="2013-11-12T21:05:56Z" finished-at="2013-11-12T21:06:27Z">
+      <class name="Test01">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Test01@4979935d]" name="setUp" is-config="true" duration-ms="17636" started-at="2013-11-12T16:05:56Z" finished-at="2013-11-12T16:06:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testLink()[pri:0, instance:Test03@1089cc5e]" name="testLink" duration-ms="5265" started-at="2013-10-24T15:15:50Z" finished-at="2013-10-24T15:15:56Z">
+        <test-method status="PASS" signature="testLink()[pri:0, instance:Test01@4979935d]" name="testLink" duration-ms="13033" started-at="2013-11-12T16:06:14Z" finished-at="2013-11-12T16:06:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLink -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Test03@1089cc5e]" name="closeBrowser" is-config="true" duration-ms="86" started-at="2013-10-24T15:15:56Z" finished-at="2013-10-24T15:15:56Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Test01@4979935d]" name="closeBrowser" is-config="true" duration-ms="506" started-at="2013-11-12T16:06:27Z" finished-at="2013-11-12T16:06:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Test01 -->
+    </test> <!-- T_01 -->
+    <test name="T_03" duration-ms="18066" started-at="2013-11-12T21:06:26Z" finished-at="2013-11-12T21:06:44Z">
+      <class name="Test03">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Test03@46c837cd]" name="setUp" is-config="true" duration-ms="4531" started-at="2013-11-12T16:06:26Z" finished-at="2013-11-12T16:06:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testLink()[pri:0, instance:Test03@46c837cd]" name="testLink" duration-ms="13369" started-at="2013-11-12T16:06:30Z" finished-at="2013-11-12T16:06:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLink -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Test03@46c837cd]" name="closeBrowser" is-config="true" duration-ms="163" started-at="2013-11-12T16:06:44Z" finished-at="2013-11-12T16:06:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- Test03 -->
     </test> <!-- T_03 -->
-    <test name="T_04" duration-ms="10904" started-at="2013-10-24T19:15:49Z" finished-at="2013-10-24T19:16:00Z">
+    <test name="T_04" duration-ms="17989" started-at="2013-11-12T21:06:27Z" finished-at="2013-11-12T21:06:45Z">
       <class name="Test04">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:Test04@30384065]" name="setUp" is-config="true" duration-ms="5229" started-at="2013-10-24T15:15:49Z" finished-at="2013-10-24T15:15:54Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Test04@3d0bbf9e]" name="setUp" is-config="true" duration-ms="5061" started-at="2013-11-12T16:06:27Z" finished-at="2013-11-12T16:06:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testLink()[pri:0, instance:Test04@30384065]" name="testLink" duration-ms="5587" started-at="2013-10-24T15:15:54Z" finished-at="2013-10-24T15:16:00Z">
+        <test-method status="PASS" signature="testLink()[pri:0, instance:Test04@3d0bbf9e]" name="testLink" duration-ms="12758" started-at="2013-11-12T16:06:32Z" finished-at="2013-11-12T16:06:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLink -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Test04@30384065]" name="closeBrowser" is-config="true" duration-ms="86" started-at="2013-10-24T15:16:00Z" finished-at="2013-10-24T15:16:00Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Test04@3d0bbf9e]" name="closeBrowser" is-config="true" duration-ms="169" started-at="2013-11-12T16:06:45Z" finished-at="2013-11-12T16:06:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- Test04 -->
     </test> <!-- T_04 -->
-    <test name="T_05" duration-ms="9444" started-at="2013-10-24T19:15:56Z" finished-at="2013-10-24T19:16:05Z">
+    <test name="T_05" duration-ms="18012" started-at="2013-11-12T21:06:44Z" finished-at="2013-11-12T21:07:02Z">
       <class name="Test05">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:Test05@77ce3fc5]" name="setUp" is-config="true" duration-ms="3463" started-at="2013-10-24T15:15:56Z" finished-at="2013-10-24T15:15:59Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Test05@5bcdbf6]" name="setUp" is-config="true" duration-ms="3600" started-at="2013-11-12T16:06:44Z" finished-at="2013-11-12T16:06:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testLink()[pri:0, instance:Test05@77ce3fc5]" name="testLink" duration-ms="5901" started-at="2013-10-24T15:15:59Z" finished-at="2013-10-24T15:16:05Z">
+        <test-method status="PASS" signature="testLink()[pri:0, instance:Test05@5bcdbf6]" name="testLink" duration-ms="14317" started-at="2013-11-12T16:06:47Z" finished-at="2013-11-12T16:07:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLink -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Test05@77ce3fc5]" name="closeBrowser" is-config="true" duration-ms="78" started-at="2013-10-24T15:16:05Z" finished-at="2013-10-24T15:16:05Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Test05@5bcdbf6]" name="closeBrowser" is-config="true" duration-ms="92" started-at="2013-11-12T16:07:02Z" finished-at="2013-11-12T16:07:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- Test05 -->
     </test> <!-- T_05 -->
   </suite> <!-- Parallel test runs -->
-  <suite name="My Test Suite" duration-ms="0" started-at="2013-10-24T19:16:05Z" finished-at="2013-10-24T19:16:05Z">
+  <suite name="My Test Suite" duration-ms="0" started-at="2013-11-12T21:07:02Z" finished-at="2013-11-12T21:07:02Z">
     <groups>
     </groups>
   </suite> <!-- My Test Suite -->
